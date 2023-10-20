@@ -29,3 +29,15 @@ tied to implementation details.
 - [ ] Static files
 - [ ] Common security measures
 
+
+## Website
+
+One half of the project is going to be about creating beautiful reference notes. The main
+objective is to have a quick way of remembering how any of the topics that I research work.
+This is in contrast to indepth notes, which I will also be taking, but will be more of a
+secondary thing.
+
+I plan on making the website with [Hugo](https://gohugo.io/), which is a technology
+that I'm curious about, but I might change this decision later.
+
+The website is located on the `site/` directory in this same repository.
