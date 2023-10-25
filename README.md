@@ -4,30 +4,50 @@ This is a personal project of mine. I plan on building up my knowledge on the fu
 of web development, and I thought that making some notes plus related projects would be an
 engaging way of doing so.
 
+## Areas
 
-## Infrastructure
+### Internet infrastructure
 
-Everything that web development is directly built upon: internet protocols, the DNS, proxies, etc.
+The "communication" aspect of web development: internet protocols, the DNS, proxies, etc.
 
 - [ ] Sockets
-- [ ] HTTP(S)
 - [ ] TCP/IP
-- [ ] TLS/SSL
-- [ ] Domain Name System (DNS)
+- [ ] TLS/SSL, certificates
+- [ ] HTTP(S)
+- [ ] DNS
+- [ ] URL
+- [ ] Web browsers
 - [ ] Reverse proxies
-- [ ] Web servers
 
 
-## Basic tasks of a web app
+### General web app functionality
 
 Tasks that most web applications must implement one way or another. Managing
-static files, media, parsing files from requests, etc. Things that are excessively
+static files, media, parsing files from requests, etc. Things that aren't excessively
 tied to implementation details.
 
 - [ ] Data parsing
 - [ ] File parsing
 - [ ] Static files
+- [ ] User authentication
 - [ ] Common security measures
+- [ ] HTML templating
+- [ ] Email and SMTP
+- [ ] Media storage
+- [ ] Caching
+- [ ] Interntionalization and localization
+- [ ] Task queues
+
+
+### Data persistence
+
+All web apps need to persist some data. This usually involves some kind of database.
+The idea here is to understand some of the basics of databases, how to interact with
+one and how do ORMs work.
+
+- [ ] Fundamentals of databases
+- [ ] Relational databases
+- [ ] Object Relational Mappers (ORMs)
 
 
 ## Website
@@ -41,3 +61,10 @@ I plan on making the website with [Hugo](https://gohugo.io/), which is a technol
 that I'm curious about, but I might change this decision later.
 
 The website is located on the `site/` directory in this same repository.
+
+
+### Glossary
+
+Since the main goal of this is creating a knowledgebase for quick references, a glossary
+is a great idea. The idea would be that important concepts could be searched and
+a quick yet understandable definition be provided.
