@@ -8,7 +8,8 @@ engaging way of doing so.
 
 ### Internet infrastructure
 
-The "communication" aspect of web development: internet protocols, the DNS, proxies, etc.
+The communication between server and client in web development: internet protocols, the DNS,
+proxies, etc.
 
 - [ ] Sockets
 - [ ] TCP/IP
@@ -80,5 +81,5 @@ The website is located on the `site/` directory in this same repository.
 ### Glossary
 
 Since the main goal of this is creating a knowledgebase for quick references, a glossary
-is a great idea. The idea would be that important concepts could be searched and
+is a great idea. The idea would be that important concepts could be searched in
 a quick yet understandable definition be provided.
