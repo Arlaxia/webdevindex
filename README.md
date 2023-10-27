@@ -30,7 +30,6 @@ tied to implementation details.
 - [ ] File parsing
 - [ ] Static files
 - [ ] User authentication
-- [ ] Common security measures
 - [ ] HTML templating
 - [ ] Email and SMTP
 - [ ] Media storage
@@ -48,6 +47,21 @@ one and how do ORMs work.
 - [ ] Fundamentals of databases
 - [ ] Relational databases
 - [ ] Object Relational Mappers (ORMs)
+
+
+### Web security
+
+Common security issues and defenses against them. List originally taken from
+[MDN web docs: HTTP Security](https://developer.mozilla.org/en-US/docs/Web/HTTP). Another
+interesting resource from Mozilla is their [web security guidelines](https://infosec.mozilla.org/guidelines/web_security).
+
+- [ ] Content Security Policy (CSP)
+- [ ] HTTP Strict Transport Security (HSTS)
+- [ ] Cookie security
+- [ ] X-Content-Type-Options
+- [ ] X-Frame-Options
+- [ ] X-XSS-Protection
+- [ ] Cross Site Request Forgery (CSRF)
 
 
 ## Website
