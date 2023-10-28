@@ -17,7 +17,7 @@ proxies, etc.
 - [ ] HTTP(S)
 - [ ] DNS
 - [ ] URL
-- [ ] Web browsers
+- [ ] Web browsers and Hypermedia
 - [ ] Reverse proxies
 
 
